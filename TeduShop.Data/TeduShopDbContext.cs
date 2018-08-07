@@ -10,7 +10,7 @@ namespace TeduShop.Data
 {
     public class TeduShopDbContext : DbContext
     {
-        public TeduShopDbContext() : base("TeduShopConnection")
+        public TeduShopDbContext() : base("QuoctranConnection")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
